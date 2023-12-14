@@ -24,7 +24,7 @@ const (
 
 func main() {
 
-	client, err := ethclient.Dial("")
+	client, err := ethclient.Dial(infuraurl)
 	if err != nil {
 		log.Fatal(err)
 	}
